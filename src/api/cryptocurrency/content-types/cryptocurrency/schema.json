@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cryptocurrencies",
+  "info": {
+    "singularName": "cryptocurrency",
+    "pluralName": "cryptocurrencies",
+    "displayName": "Cryptocurrency",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logotype": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "exchange_rate": {
+      "type": "string"
+    }
+  }
+}
